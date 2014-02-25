@@ -24,6 +24,10 @@ Install everything but disable service(s) afterwards:
        status => 'disabled',
      }
 
+### Dependencies
+  * [puppet-python](https://github.com/stankevich/puppet-python)
+  * [file_concat](https://github.com/electrical/file_concat.git)
+
 ### Inputs
 
 At this moment there is only the file input.
